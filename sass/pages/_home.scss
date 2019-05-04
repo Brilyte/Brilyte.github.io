@@ -1,0 +1,73 @@
+.section-skills {
+    margin-top: 0;
+    padding: 5rem 0 20rem 0;
+    background-color: $color-grey;
+}
+
+.section-experience {
+    margin-top: 0;
+    padding: 5rem 0 10rem 0;
+    background-image: linear-gradient(315deg, $color-light-purple 0%, $color-dark-purple 74%);
+}
+
+.section-projects {
+    margin-top: 0;
+    padding: 5rem 0 20rem 0;
+    background-color: $color-grey
+}
+
+.section-contact {
+    margin-top: 0;
+    padding: 5rem 0 20rem 0;
+    background-image: linear-gradient(315deg, $color-light-purple 0%, $color-dark-purple 74%);
+}
+
+.section-skill-box {
+    margin-top: 0;
+    padding: 5rem 0 20rem 0;
+    background-color: $color-grey;
+}
+
+.experience-list {
+    text-align: left;
+    font-size: $default-font-size;
+    padding-inline-start: 2rem;
+
+    &__item {
+        margin-bottom: 0.4rem;
+    }
+}
+
+.experience-description {
+    &__title {
+        font-size: 2rem;
+        display: inline-block;
+        font-weight: 400;
+        
+        @include respond(tab-port) {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.project-list {
+    display: inline-block;
+    font-size: $default-font-size;
+    list-style: none;
+    padding-left: 0;
+
+    &__item {
+        text-align: left;
+    }
+}
+
+.git-par {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.contact-link {
+    color: $color-white;
+    text-decoration: none;
+}

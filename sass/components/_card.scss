@@ -1,0 +1,86 @@
+.card {
+    height: 50rem;
+    font-size: $default-font-size;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 1.5rem 1.5rem 1rem rgba($color-black, .1);
+    overflow: hidden;
+
+    position: relative;
+
+    background-image: linear-gradient(
+                to right bottom, 
+                rgba($color-light-purple, .85), 
+                rgba($color-dark-purple, .85));
+
+    &__picture {
+        height: 18rem;
+        background-size: cover;
+
+        &--1 {
+            // background-size: cover;
+            background-blend-mode: screen;
+
+            background-image: linear-gradient(to right bottom, $color-1, $color-2),
+                url(../img/code-coder-coding-270348.jpg);
+        }
+
+        &--2 {
+            background-blend-mode: hard-light;
+            background-image: linear-gradient(to right bottom, $color-1, $color-2),
+                url(../img/blur-close-up-design-196645.jpg);
+        }
+
+        &--3 {
+            background-blend-mode: screen;
+            background-image: linear-gradient(to right bottom, $color-1, $color-2),
+                url(../img/backlit-blogging-coding-34153.jpg);
+        }
+    }
+
+    &__heading {
+        font-size: 2.8rem;
+        margin: 1rem;
+        // text-align: right;
+        top: 12rem;
+        // right: 2rem;
+        position: absolute;
+        // width: 75%;
+    }
+
+    &__heading-span {
+        padding: 1rem 1.5rem;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+
+        background-image: linear-gradient(
+                to right bottom, 
+                rgba($color-light-purple, .85), 
+                rgba($color-dark-purple, .85));
+
+    }
+
+    &__details {
+        padding: 2rem;
+        
+        &__coming-soon{
+            color: $color-dark-grey;
+        }
+
+        ul {
+            margin: 0 auto;
+            list-style: none;
+            padding: 0;
+
+            li {
+                font-size: 1.4rem;
+                text-align: center;
+                padding: 1rem;
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid $color-dark-purple-2;
+                }
+            }
+        }
+    }
+}
