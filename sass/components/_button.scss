@@ -31,11 +31,12 @@
     &:link,
     &:visited {
         
-        color: $color-dark-purple;
+        color: $color-black;
+        text-decoration: underline;
         font-size: 1.7rem;
-        text-decoration: none;
+        // text-decoration: none;
         padding: 0.3rem;
-        // text-shadow: 0.2rem 0.2rem #9fa4c4
+        // text-shadow: 0.2rem 0.2rem #fff;
     }
 
     &:hover {

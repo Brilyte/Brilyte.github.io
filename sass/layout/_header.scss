@@ -1,5 +1,5 @@
 .header {
-    background-image: linear-gradient(315deg, $color-light-purple 0%, $color-dark-purple 74%);
+    background-image: linear-gradient(315deg, $color-light-purple 0%, $color-dark-purple 80%);
 
     height: 75vh;
     position: relative;
@@ -17,8 +17,8 @@
 
         &--name {
             display: inline;
-            color: $color-darker-purple;
-            text-shadow: 0.2rem 0.2rem #9fa4c4;
+            color: $color-black;
+            // text-shadow: 0.2rem 0.2rem #9fa4c4;
             letter-spacing: 1.5rem;
         }
     }
